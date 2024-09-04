@@ -1,0 +1,22 @@
+---
+title: "Barns' Weekly Power Rankings 2024-2025"
+subtitle: "Welcome back to another year of the ShivaBowl!"
+toc: false
+about:
+  id: hero-heading
+  template: jolla
+  image-shape: rounded
+  image-width: 20em
+  image: img/shiva.jpg
+format:
+    html:
+        css: styles.css
+---
+
+First of all, we'd like to kick off the season by congratulating last year's champion **jcanizzaro**, and thanking our commissioner **CantGuardBandaidMike** for setting up this year's draft.
+
+I know many of you are familiar with Barn's Weekly Power Rankings, and I know that last year you missed us and we were sorry to leave you without a highly-subjective, highly-contentious ranking of all your teams to get you all fired up every week. This year, as we no-longer have our whiteboard, we are happy to bring you BWPR in a brand new, easy to navigate, all in one format! We will be adding new features throughout the season so make sure to check back each week to see what Barns thinks of your squad!
+
+
+
+Finally, our logo is still in development and we are accepting submissions for the new logo of BWPR!

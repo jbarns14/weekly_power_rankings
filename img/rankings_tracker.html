@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.15.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-2246e9c6bbae5984c7e640beb349da2c"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"field": "Team", "type": "nominal"}, "tooltip": [{"field": "Team", "type": "nominal"}, {"field": "Week", "type": "quantitative"}, {"field": "Ranking", "type": "quantitative"}], "x": {"field": "Week", "title": "Week", "type": "ordinal"}, "y": {"field": "Ranking", "scale": {"domain": [1, 10], "reverse": true}, "title": "Ranking", "type": "quantitative"}}, "height": 400, "title": "Power Rankings Tracker", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json", "datasets": {"data-2246e9c6bbae5984c7e640beb349da2c": [{"Team": "Two Curls One Kupp", "Week": 1, "Ranking": 1}, {"Team": "Ladies Love Cool Jalen", "Week": 1, "Ranking": 2}, {"Team": "Njigbas in Paris", "Week": 1, "Ranking": 3}, {"Team": "Ass Etienne Szn", "Week": 1, "Ranking": 4}, {"Team": "Rico's Rizzlers", "Week": 1, "Ranking": 5}, {"Team": "Team10Chrysler", "Week": 1, "Ranking": 6}, {"Team": "Big Dak Energy", "Week": 1, "Ranking": 7}, {"Team": "Butker's Housewife Brigade", "Week": 1, "Ranking": 8}, {"Team": "CantGuardBandaidMike", "Week": 1, "Ranking": 9}, {"Team": "The Dicker McDickersons", "Week": 1, "Ranking": 10}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

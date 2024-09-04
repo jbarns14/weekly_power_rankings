@@ -1,0 +1,67 @@
+/* css styles */
+
+.navbar-logo {
+    max-height: 100px;
+    width: auto;
+    align-items: baseline;
+}
+
+.mainbox {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+
+.mainbox a {
+    color: #000000;
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.mainbox h2 {
+    font-weight: lighter;
+    border-bottom-width: 0px;
+}
+
+.mainbox p {
+    font-weight: lighter;
+    font-size: 80%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    /* Adjust the size as needed */
+    color: #555;
+    /* Choose a color that fits your design */
+    font-weight: normal;
+    /* Normal weight for subtitle */
+    text-align: center;
+    /* Align text to the left */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    /* font-style: italic; */
+}
+
+.section-title,
+.subsection-title {
+    font-size: 1.5em;
+    /* Adjust the size as needed */
+    color: #555;
+    /* Choose a color that fits your design */
+    font-weight: normal;
+    /* Normal weight for subtitle */
+    text-align: center;
+    /* Align text to the left */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    /* font-style: italic; */
+}

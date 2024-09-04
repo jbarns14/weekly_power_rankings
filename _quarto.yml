@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "BWPR"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: week1.qmd
+        text: Week 1
+      - href: tracker.qmd
+        text: Tracker
+    title: false
+    background: "#000000"
+    foreground: "#E6E6DD"
+    collapse-below: lg
+    logo: img/logo.png
+
+format:
+  html:
+    theme: zephyr
+    css: styles.css
+    toc: true
+    includes:
+      in-header: styles.css
+    page-layout: full
+
+
+
