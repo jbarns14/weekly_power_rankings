@@ -12,6 +12,12 @@ format:
     html:
         css: styles.css
 ---
+<h2 class="subtitle">News</h2>
+
+Week 2 Power Rankings are out now!
+<br>
+<br>
+
 <h2 class="subtitle">Kicking Off the 2024 Season</h2>
 
 First of all, we'd like to kick off the season by congratulating last year's champion **jcanizzaro**, and thanking our commissioner **CantGuardBandaidMike** for setting up this year's draft.
@@ -21,6 +27,3 @@ I know many of you are familiar with Barn's Weekly Power Rankings, and I know th
 
 Finally, our logo is still in development and we are accepting submissions for the new logo of BWPR!
 
-<h2 class="subtitle">News</h2>
-
-Week 2 Power Rankings are out now!
