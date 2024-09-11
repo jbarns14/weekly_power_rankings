@@ -15,6 +15,7 @@ format:
 <h2 class="subtitle">News</h2>
 
 Week 2 Power Rankings are out now!
+Check out the changes we've made to the Tracker!
 <br>
 <br>
 
