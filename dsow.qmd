@@ -1,0 +1,14 @@
+---
+title: "The Dawg-N-Em Start of the Week"
+---
+
+<h2 class="subtitle">Week 2</h2>
+
+![](img/mhj.png){#mhj-image .center}
+
+<div style="text-align: center;">
+Dawg-N-Em Start of the Week: Marvin Harrison Jr<br>
+Points: 29.0<br>
+Team: Butker's Housewife Brigade<br>
+Manager: jcanizzaro<br>
+</div>

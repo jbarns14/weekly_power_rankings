@@ -12,6 +12,10 @@ website:
         text: Week 1
       - href: week2.qmd
         text: Week 2
+      - href: week3.qmd
+        text: Week 3
+      - href: dsow.qmd
+        text: DSOW
       - href: tracker.qmd
         text: Tracker
     title: false

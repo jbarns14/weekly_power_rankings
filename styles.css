@@ -65,3 +65,21 @@ h1 {
     /* Space below the heading */
     /* font-style: italic; */
 }
+
+/* Make the image circular */
+#mhj-image {
+    width: 200px;
+    /* Adjust as needed */
+    height: 200px;
+    /* Ensure width and height are equal */
+    border-radius: 50%;
+    object-fit: cover;
+    /* Ensures the image covers the frame */
+}
+
+/* Center the image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

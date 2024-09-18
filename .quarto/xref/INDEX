@@ -19,5 +19,14 @@
   },
   "notebooks/tracker.ipynb": {
     "tracker.html": "7b414a14"
+  },
+  "dawg.qmd": {
+    "dawg.html": "3077fcbe"
+  },
+  "week3.qmd": {
+    "week3.html": "08b14416"
+  },
+  "dsow.qmd": {
+    "dsow.html": "b942ecae"
   }
 }
