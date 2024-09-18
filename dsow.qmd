@@ -1,7 +1,7 @@
 ---
 title: "The Dawg-N-Em Start of the Week"
 ---
-
+<link rel="stylesheet" href="styles.css?v=1.0">
 <h2 class="subtitle">Week 2</h2>
 
 ![](img/mhj.png){#mhj-image .center}
