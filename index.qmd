@@ -14,7 +14,7 @@ format:
 ---
 <h2 class="subtitle">News</h2>
 
-Week 4 Power Rankings are out now!
+Week 5 Power Rankings are out now!
 <br>
 <br>
 

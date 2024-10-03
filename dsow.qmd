@@ -25,3 +25,15 @@ Points: 27.0<br>
 Team: Mike Vick's Underdogs<br>
 Manager: Can'tGuardBandaidMike<br>
 </div>
+
+
+<h2 class="subtitle">Week 4</h2>
+
+![](img/kenwalker.png){#mhj-image .center}
+
+<div style="text-align: center;">
+Dawg-N-Em Start of the Week: Kenneth Walker III<br>
+Points: 33.6<br>
+Team: Two Curls One Kupp<br>
+Manager: ryankuske98<br>
+</div>
