@@ -37,3 +37,15 @@ Points: 33.6<br>
 Team: Two Curls One Kupp<br>
 Manager: ryankuske98<br>
 </div>
+
+
+<h2 class="subtitle">Week 5</h2>
+
+![](img/teehiggins.png){#mhj-image .center}
+
+<div style="text-align: center;">
+Dawg-N-Em Start of the Week: Tee Higgins<br>
+Points: 29.3<br>
+Team: The Dicker McDickersons<br>
+Manager: chadno<br>
+</div>

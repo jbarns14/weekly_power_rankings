@@ -18,6 +18,8 @@ website:
         text: Week 4
       - href: week5.qmd
         text: Week 5
+      - href: week6.qmd
+        text: Week 6
       - href: dsow.qmd
         text: DSOW
       - href: tracker.qmd
