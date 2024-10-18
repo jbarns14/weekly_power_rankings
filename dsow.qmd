@@ -49,3 +49,15 @@ Points: 29.3<br>
 Team: The Dicker McDickersons<br>
 Manager: chadno<br>
 </div>
+
+
+<h2 class="subtitle">Week 6</h2>
+
+![](img/joemixon.png){#mhj-image .center}
+
+<div style="text-align: center;">
+Dawg-N-Em Start of the Week: Joe Mixon<br>
+Points: 27.2<br>
+Team: Big Dak Energy<br>
+Manager: ahope24<br>
+</div>
