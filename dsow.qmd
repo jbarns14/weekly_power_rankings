@@ -61,3 +61,15 @@ Points: 27.2<br>
 Team: Big Dak Energy<br>
 Manager: ahope24<br>
 </div>
+
+
+<h2 class="subtitle">Week 8</h2>
+
+![](img/cadeotton.png){#mhj-image .center}
+
+<div style="text-align: center;">
+Dawg-N-Em Start of the Week: Cade Otton<br>
+Points: 29.10<br>
+Team: Ass Etienne Szn<br>
+Manager: scarter01<br>
+</div>
