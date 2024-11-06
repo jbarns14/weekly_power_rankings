@@ -14,9 +14,9 @@ format:
 ---
 <h2 class="subtitle">News</h2>
 
-Week 9 Power Rankings are out now!
+Week 10 Power Rankings are out now!
 <br>
-Sorry we missed the Week 8 rankings! We're back this week to bring you Week 9 from 30,000 ft!
+
 <br>
 
 <h2 class="subtitle">Kicking Off the 2024 Season</h2>

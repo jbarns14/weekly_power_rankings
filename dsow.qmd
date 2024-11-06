@@ -73,3 +73,15 @@ Points: 29.10<br>
 Team: Ass Etienne Szn<br>
 Manager: scarter01<br>
 </div>
+
+
+<h2 class="subtitle">Week 9</h2>
+
+![](img/jsn.png){#mhj-image .center}
+
+<div style="text-align: center;">
+Dawg-N-Em Start of the Week: Jaxon Smith-Njigba<br>
+Points: 37.00<br>
+Team: Njigbas in Paris<br>
+Manager: henderrr<br>
+</div>
