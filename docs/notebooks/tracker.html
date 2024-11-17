@@ -122,42 +122,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week1.html" rel="" target="">
- <span class="menu-text">Week 1</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-power-rankings" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Power Rankings</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-power-rankings">    
+        <li>
+    <a class="dropdown-item" href="../week1.html" rel="" target="">
+ <span class="dropdown-text">Week 1</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week2.html" rel="" target="">
- <span class="menu-text">Week 2</span></a>
+        <li>
+    <a class="dropdown-item" href="../week2.html" rel="" target="">
+ <span class="dropdown-text">Week 2</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week3.html" rel="" target="">
- <span class="menu-text">Week 3</span></a>
+        <li>
+    <a class="dropdown-item" href="../week3.html" rel="" target="">
+ <span class="dropdown-text">Week 3</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week4.html" rel="" target="">
- <span class="menu-text">Week 4</span></a>
+        <li>
+    <a class="dropdown-item" href="../week4.html" rel="" target="">
+ <span class="dropdown-text">Week 4</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week5.html" rel="" target="">
- <span class="menu-text">Week 5</span></a>
+        <li>
+    <a class="dropdown-item" href="../week5.html" rel="" target="">
+ <span class="dropdown-text">Week 5</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week6.html" rel="" target="">
- <span class="menu-text">Week 6</span></a>
+        <li>
+    <a class="dropdown-item" href="../week6.html" rel="" target="">
+ <span class="dropdown-text">Week 6</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week7.html" rel="" target="">
- <span class="menu-text">Week 7</span></a>
+        <li>
+    <a class="dropdown-item" href="../week7.html" rel="" target="">
+ <span class="dropdown-text">Week 7</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week9.html" rel="" target="">
- <span class="menu-text">Week 9</span></a>
+        <li>
+    <a class="dropdown-item" href="../week9.html" rel="" target="">
+ <span class="dropdown-text">Week 9</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../week10.html" rel="" target="">
- <span class="menu-text">Week 10</span></a>
+        <li>
+    <a class="dropdown-item" href="../week10.html" rel="" target="">
+ <span class="dropdown-text">Week 10</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../week11.html" rel="" target="">
+ <span class="dropdown-text">Week 11</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../dsow.html" rel="" target="">
  <span class="menu-text">DSOW</span></a>
@@ -165,6 +176,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="../tracker.html" rel="" target="">
  <span class="menu-text">Tracker</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../frauds.html" rel="" target="">
+ <span class="menu-text">Barns’ List of Fraudulent Frauds</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -185,7 +200,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="cell" data-execution_count="3">
+<div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -260,32 +275,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the chart</span></span>
 <span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>chart.save(<span class="st">"../img/rankings_tracker.html"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/8g/91jpwpd137ld1bq8pf74y58w0000gn/T/ipykernel_89112/1006077209.py:20: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+<pre><code>/var/folders/8g/91jpwpd137ld1bq8pf74y58w0000gn/T/ipykernel_71794/1006077209.py:20: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
   ranking_changes_formatted = ranking_changes_reversed.applymap(</code></pre>
 </div>
 </div>
-<div class="cell" data-execution_count="4">
+<div class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>chart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="2">
 
 <style>
-  #altair-viz-7333553d672f4f79aaf649822872fbc8.vega-embed {
+  #altair-viz-9251ba28e6954fc3a21e7f25ac5cdc4e.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-7333553d672f4f79aaf649822872fbc8.vega-embed details,
-  #altair-viz-7333553d672f4f79aaf649822872fbc8.vega-embed details summary {
+  #altair-viz-9251ba28e6954fc3a21e7f25ac5cdc4e.vega-embed details,
+  #altair-viz-9251ba28e6954fc3a21e7f25ac5cdc4e.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-7333553d672f4f79aaf649822872fbc8"></div>
+<div id="altair-viz-9251ba28e6954fc3a21e7f25ac5cdc4e"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-7333553d672f4f79aaf649822872fbc8") {
-      outputDiv = document.getElementById("altair-viz-7333553d672f4f79aaf649822872fbc8");
+    if (outputDiv.id !== "altair-viz-9251ba28e6954fc3a21e7f25ac5cdc4e") {
+      outputDiv = document.getElementById("altair-viz-9251ba28e6954fc3a21e7f25ac5cdc4e");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -331,7 +346,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "legend": {"disable": true}}, "layer": [{"data": {"name": "data-30f95deb51f7b949b9ba63aeb394acee"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"field": "Team", "type": "nominal"}, "tooltip": [{"field": "Team", "type": "nominal"}, {"field": "Week", "type": "quantitative"}, {"field": "Ranking", "type": "quantitative"}, {"field": "Ranking Change", "type": "nominal"}], "x": {"axis": {"labelAngle": 0}, "field": "Week", "title": "Week", "type": "ordinal"}, "y": {"field": "Ranking", "scale": {"domain": [1, 10], "reverse": true}, "title": "Ranking", "type": "quantitative"}}}, {"data": {"name": "data-de59cb5d9d6d3761e4ba340d032f8f7b"}, "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5}, "encoding": {"color": {"field": "Team", "type": "nominal"}, "text": {"field": "Team", "type": "nominal"}, "x": {"field": "Week", "type": "ordinal"}, "y": {"field": "Ranking", "type": "quantitative"}}}], "height": 400, "title": "Power Rankings Tracker", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json", "datasets": {"data-30f95deb51f7b949b9ba63aeb394acee": [{"Week": 1, "Team": "Ass Etienne Szn", "Ranking": 4, "Ranking Change": "0"}, {"Week": 2, "Team": "Ass Etienne Szn", "Ranking": 3, "Ranking Change": "+1"}, {"Week": 3, "Team": "Ass Etienne Szn", "Ranking": 1, "Ranking Change": "+2"}, {"Week": 4, "Team": "Ass Etienne Szn", "Ranking": 3, "Ranking Change": "-2"}, {"Week": 5, "Team": "Ass Etienne Szn", "Ranking": 2, "Ranking Change": "+1"}, {"Week": 6, "Team": "Ass Etienne Szn", "Ranking": 4, "Ranking Change": "-2"}, {"Week": 7, "Team": "Ass Etienne Szn", "Ranking": 5, "Ranking Change": "-1"}, {"Week": 9, "Team": "Ass Etienne Szn", "Ranking": 5, "Ranking Change": "0"}, {"Week": 10, "Team": "Ass Etienne Szn", "Ranking": 2, "Ranking Change": "+3"}, {"Week": 1, "Team": "Big Dak Energy", "Ranking": 7, "Ranking Change": "0"}, {"Week": 2, "Team": "Big Dak Energy", "Ranking": 7, "Ranking Change": "0"}, {"Week": 3, "Team": "Big Dak Energy", "Ranking": 8, "Ranking Change": "-1"}, {"Week": 4, "Team": "Big Dak Energy", "Ranking": 8, "Ranking Change": "0"}, {"Week": 5, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "-2"}, {"Week": 6, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 7, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 9, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 10, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 1, "Team": "Butker's Housewife Brigade", "Ranking": 8, "Ranking Change": "0"}, {"Week": 2, "Team": "Butker's Housewife Brigade", "Ranking": 8, "Ranking Change": "0"}, {"Week": 3, "Team": "Butker's Housewife Brigade", "Ranking": 4, "Ranking Change": "+4"}, {"Week": 4, "Team": "Butker's Housewife Brigade", "Ranking": 2, "Ranking Change": "+2"}, {"Week": 5, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "+1"}, {"Week": 6, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 7, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 9, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 10, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 1, "Team": "Ladies Love Cool Jalen", "Ranking": 2, "Ranking Change": "0"}, {"Week": 2, "Team": "Ladies Love Cool Jalen", "Ranking": 6, "Ranking Change": "-4"}, {"Week": 3, "Team": "Ladies Love Cool Jalen", "Ranking": 3, "Ranking Change": "+3"}, {"Week": 4, "Team": "Ladies Love Cool Jalen", "Ranking": 4, "Ranking Change": "-1"}, {"Week": 5, "Team": "Ladies Love Cool Jalen", "Ranking": 3, "Ranking Change": "+1"}, {"Week": 6, "Team": "Ladies Love Cool Jalen", "Ranking": 5, "Ranking Change": "-2"}, {"Week": 7, "Team": "Ladies Love Cool Jalen", "Ranking": 4, "Ranking Change": "+1"}, {"Week": 9, "Team": "Ladies Love Cool Jalen", "Ranking": 4, "Ranking Change": "0"}, {"Week": 10, "Team": "Ladies Love Cool Jalen", "Ranking": 7, "Ranking Change": "-3"}, {"Week": 1, "Team": "Mike Vick's Underdogs", "Ranking": 9, "Ranking Change": "0"}, {"Week": 2, "Team": "Mike Vick's Underdogs", "Ranking": 9, "Ranking Change": "0"}, {"Week": 3, "Team": "Mike Vick's Underdogs", "Ranking": 6, "Ranking Change": "+3"}, {"Week": 4, "Team": "Mike Vick's Underdogs", "Ranking": 5, "Ranking Change": "+1"}, {"Week": 5, "Team": "Mike Vick's Underdogs", "Ranking": 5, "Ranking Change": "0"}, {"Week": 6, "Team": "Mike Vick's Underdogs", "Ranking": 8, "Ranking Change": "-3"}, {"Week": 7, "Team": "Mike Vick's Underdogs", "Ranking": 8, "Ranking Change": "0"}, {"Week": 9, "Team": "Mike Vick's Underdogs", "Ranking": 7, "Ranking Change": "+1"}, {"Week": 10, "Team": "Mike Vick's Underdogs", "Ranking": 4, "Ranking Change": "+3"}, {"Week": 1, "Team": "Njigbas in Paris", "Ranking": 3, "Ranking Change": "0"}, {"Week": 2, "Team": "Njigbas in Paris", "Ranking": 4, "Ranking Change": "-1"}, {"Week": 3, "Team": "Njigbas in Paris", "Ranking": 2, "Ranking Change": "+2"}, {"Week": 4, "Team": "Njigbas in Paris", "Ranking": 1, "Ranking Change": "+1"}, {"Week": 5, "Team": "Njigbas in Paris", "Ranking": 4, "Ranking Change": "-3"}, {"Week": 6, "Team": "Njigbas in Paris", "Ranking": 3, "Ranking Change": "+1"}, {"Week": 7, "Team": "Njigbas in Paris", "Ranking": 2, "Ranking Change": "+1"}, {"Week": 9, "Team": "Njigbas in Paris", "Ranking": 3, "Ranking Change": "-1"}, {"Week": 10, "Team": "Njigbas in Paris", "Ranking": 5, "Ranking Change": "-2"}, {"Week": 1, "Team": "Raheem's Rizzlers", "Ranking": 5, "Ranking Change": "0"}, {"Week": 2, "Team": "Raheem's Rizzlers", "Ranking": 2, "Ranking Change": "+3"}, {"Week": 3, "Team": "Raheem's Rizzlers", "Ranking": 7, "Ranking Change": "-5"}, {"Week": 4, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "+1"}, {"Week": 5, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 6, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 7, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 9, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 10, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 1, "Team": "Big Ass Boy", "Ranking": 6, "Ranking Change": "0"}, {"Week": 2, "Team": "Big Ass Boy", "Ranking": 5, "Ranking Change": "+1"}, {"Week": 3, "Team": "Big Ass Boy", "Ranking": 5, "Ranking Change": "0"}, {"Week": 4, "Team": "Big Ass Boy", "Ranking": 7, "Ranking Change": "-2"}, {"Week": 5, "Team": "Big Ass Boy", "Ranking": 7, "Ranking Change": "0"}, {"Week": 6, "Team": "Big Ass Boy", "Ranking": 2, "Ranking Change": "+5"}, {"Week": 7, "Team": "Big Ass Boy", "Ranking": 3, "Ranking Change": "-1"}, {"Week": 9, "Team": "Big Ass Boy", "Ranking": 2, "Ranking Change": "+1"}, {"Week": 10, "Team": "Big Ass Boy", "Ranking": 3, "Ranking Change": "-1"}, {"Week": 1, "Team": "The Dicker McDickersons", "Ranking": 10, "Ranking Change": "0"}, {"Week": 2, "Team": "The Dicker McDickersons", "Ranking": 10, "Ranking Change": "0"}, {"Week": 3, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "+1"}, {"Week": 4, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 5, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 6, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 7, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 9, "Team": "The Dicker McDickersons", "Ranking": 8, "Ranking Change": "+1"}, {"Week": 10, "Team": "The Dicker McDickersons", "Ranking": 8, "Ranking Change": "0"}, {"Week": 1, "Team": "Two Curls One Kupp", "Ranking": 1, "Ranking Change": "0"}, {"Week": 2, "Team": "Two Curls One Kupp", "Ranking": 1, "Ranking Change": "0"}, {"Week": 3, "Team": "Two Curls One Kupp", "Ranking": 10, "Ranking Change": "-9"}, {"Week": 4, "Team": "Two Curls One Kupp", "Ranking": 10, "Ranking Change": "0"}, {"Week": 5, "Team": "Two Curls One Kupp", "Ranking": 8, "Ranking Change": "+2"}, {"Week": 6, "Team": "Two Curls One Kupp", "Ranking": 7, "Ranking Change": "+1"}, {"Week": 7, "Team": "Two Curls One Kupp", "Ranking": 7, "Ranking Change": "0"}, {"Week": 9, "Team": "Two Curls One Kupp", "Ranking": 9, "Ranking Change": "-2"}, {"Week": 10, "Team": "Two Curls One Kupp", "Ranking": 9, "Ranking Change": "0"}], "data-de59cb5d9d6d3761e4ba340d032f8f7b": [{"Week": 10, "Team": "Ass Etienne Szn", "Ranking": 2, "Ranking Change": "+3"}, {"Week": 10, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 10, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 10, "Team": "Ladies Love Cool Jalen", "Ranking": 7, "Ranking Change": "-3"}, {"Week": 10, "Team": "Mike Vick's Underdogs", "Ranking": 4, "Ranking Change": "+3"}, {"Week": 10, "Team": "Njigbas in Paris", "Ranking": 5, "Ranking Change": "-2"}, {"Week": 10, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 10, "Team": "Big Ass Boy", "Ranking": 3, "Ranking Change": "-1"}, {"Week": 10, "Team": "The Dicker McDickersons", "Ranking": 8, "Ranking Change": "0"}, {"Week": 10, "Team": "Two Curls One Kupp", "Ranking": 9, "Ranking Change": "0"}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "legend": {"disable": true}}, "layer": [{"data": {"name": "data-f527af106e66498dd162024d116dc034"}, "mark": {"type": "line", "point": true}, "encoding": {"color": {"field": "Team", "type": "nominal"}, "tooltip": [{"field": "Team", "type": "nominal"}, {"field": "Week", "type": "quantitative"}, {"field": "Ranking", "type": "quantitative"}, {"field": "Ranking Change", "type": "nominal"}], "x": {"axis": {"labelAngle": 0}, "field": "Week", "title": "Week", "type": "ordinal"}, "y": {"field": "Ranking", "scale": {"domain": [1, 10], "reverse": true}, "title": "Ranking", "type": "quantitative"}}}, {"data": {"name": "data-86466eeb73477887394bf082a1b71c6b"}, "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5}, "encoding": {"color": {"field": "Team", "type": "nominal"}, "text": {"field": "Team", "type": "nominal"}, "x": {"field": "Week", "type": "ordinal"}, "y": {"field": "Ranking", "type": "quantitative"}}}], "height": 400, "title": "Power Rankings Tracker", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json", "datasets": {"data-f527af106e66498dd162024d116dc034": [{"Week": 1, "Team": "Ass Etienne Szn", "Ranking": 4, "Ranking Change": "0"}, {"Week": 2, "Team": "Ass Etienne Szn", "Ranking": 3, "Ranking Change": "+1"}, {"Week": 3, "Team": "Ass Etienne Szn", "Ranking": 1, "Ranking Change": "+2"}, {"Week": 4, "Team": "Ass Etienne Szn", "Ranking": 3, "Ranking Change": "-2"}, {"Week": 5, "Team": "Ass Etienne Szn", "Ranking": 2, "Ranking Change": "+1"}, {"Week": 6, "Team": "Ass Etienne Szn", "Ranking": 4, "Ranking Change": "-2"}, {"Week": 7, "Team": "Ass Etienne Szn", "Ranking": 5, "Ranking Change": "-1"}, {"Week": 9, "Team": "Ass Etienne Szn", "Ranking": 5, "Ranking Change": "0"}, {"Week": 10, "Team": "Ass Etienne Szn", "Ranking": 2, "Ranking Change": "+3"}, {"Week": 11, "Team": "Ass Etienne Szn", "Ranking": 1, "Ranking Change": "+1"}, {"Week": 1, "Team": "Big Dak Energy", "Ranking": 7, "Ranking Change": "0"}, {"Week": 2, "Team": "Big Dak Energy", "Ranking": 7, "Ranking Change": "0"}, {"Week": 3, "Team": "Big Dak Energy", "Ranking": 8, "Ranking Change": "-1"}, {"Week": 4, "Team": "Big Dak Energy", "Ranking": 8, "Ranking Change": "0"}, {"Week": 5, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "-2"}, {"Week": 6, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 7, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 9, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 10, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 11, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 1, "Team": "Butker's Housewife Brigade", "Ranking": 8, "Ranking Change": "0"}, {"Week": 2, "Team": "Butker's Housewife Brigade", "Ranking": 8, "Ranking Change": "0"}, {"Week": 3, "Team": "Butker's Housewife Brigade", "Ranking": 4, "Ranking Change": "+4"}, {"Week": 4, "Team": "Butker's Housewife Brigade", "Ranking": 2, "Ranking Change": "+2"}, {"Week": 5, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "+1"}, {"Week": 6, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 7, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 9, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 10, "Team": "Butker's Housewife Brigade", "Ranking": 1, "Ranking Change": "0"}, {"Week": 11, "Team": "Butker's Housewife Brigade", "Ranking": 2, "Ranking Change": "-1"}, {"Week": 1, "Team": "Ladies Love Cool Jalen", "Ranking": 2, "Ranking Change": "0"}, {"Week": 2, "Team": "Ladies Love Cool Jalen", "Ranking": 6, "Ranking Change": "-4"}, {"Week": 3, "Team": "Ladies Love Cool Jalen", "Ranking": 3, "Ranking Change": "+3"}, {"Week": 4, "Team": "Ladies Love Cool Jalen", "Ranking": 4, "Ranking Change": "-1"}, {"Week": 5, "Team": "Ladies Love Cool Jalen", "Ranking": 3, "Ranking Change": "+1"}, {"Week": 6, "Team": "Ladies Love Cool Jalen", "Ranking": 5, "Ranking Change": "-2"}, {"Week": 7, "Team": "Ladies Love Cool Jalen", "Ranking": 4, "Ranking Change": "+1"}, {"Week": 9, "Team": "Ladies Love Cool Jalen", "Ranking": 4, "Ranking Change": "0"}, {"Week": 10, "Team": "Ladies Love Cool Jalen", "Ranking": 7, "Ranking Change": "-3"}, {"Week": 11, "Team": "Ladies Love Cool Jalen", "Ranking": 8, "Ranking Change": "-1"}, {"Week": 1, "Team": "Mike Vick's Underdogs", "Ranking": 9, "Ranking Change": "0"}, {"Week": 2, "Team": "Mike Vick's Underdogs", "Ranking": 9, "Ranking Change": "0"}, {"Week": 3, "Team": "Mike Vick's Underdogs", "Ranking": 6, "Ranking Change": "+3"}, {"Week": 4, "Team": "Mike Vick's Underdogs", "Ranking": 5, "Ranking Change": "+1"}, {"Week": 5, "Team": "Mike Vick's Underdogs", "Ranking": 5, "Ranking Change": "0"}, {"Week": 6, "Team": "Mike Vick's Underdogs", "Ranking": 8, "Ranking Change": "-3"}, {"Week": 7, "Team": "Mike Vick's Underdogs", "Ranking": 8, "Ranking Change": "0"}, {"Week": 9, "Team": "Mike Vick's Underdogs", "Ranking": 7, "Ranking Change": "+1"}, {"Week": 10, "Team": "Mike Vick's Underdogs", "Ranking": 4, "Ranking Change": "+3"}, {"Week": 11, "Team": "Mike Vick's Underdogs", "Ranking": 4, "Ranking Change": "0"}, {"Week": 1, "Team": "Njigbas in Paris", "Ranking": 3, "Ranking Change": "0"}, {"Week": 2, "Team": "Njigbas in Paris", "Ranking": 4, "Ranking Change": "-1"}, {"Week": 3, "Team": "Njigbas in Paris", "Ranking": 2, "Ranking Change": "+2"}, {"Week": 4, "Team": "Njigbas in Paris", "Ranking": 1, "Ranking Change": "+1"}, {"Week": 5, "Team": "Njigbas in Paris", "Ranking": 4, "Ranking Change": "-3"}, {"Week": 6, "Team": "Njigbas in Paris", "Ranking": 3, "Ranking Change": "+1"}, {"Week": 7, "Team": "Njigbas in Paris", "Ranking": 2, "Ranking Change": "+1"}, {"Week": 9, "Team": "Njigbas in Paris", "Ranking": 3, "Ranking Change": "-1"}, {"Week": 10, "Team": "Njigbas in Paris", "Ranking": 5, "Ranking Change": "-2"}, {"Week": 11, "Team": "Njigbas in Paris", "Ranking": 6, "Ranking Change": "-1"}, {"Week": 1, "Team": "Raheem's Rizzlers", "Ranking": 5, "Ranking Change": "0"}, {"Week": 2, "Team": "Raheem's Rizzlers", "Ranking": 2, "Ranking Change": "+3"}, {"Week": 3, "Team": "Raheem's Rizzlers", "Ranking": 7, "Ranking Change": "-5"}, {"Week": 4, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "+1"}, {"Week": 5, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 6, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 7, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 9, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 10, "Team": "Raheem's Rizzlers", "Ranking": 6, "Ranking Change": "0"}, {"Week": 11, "Team": "Raheem's Rizzlers", "Ranking": 5, "Ranking Change": "+1"}, {"Week": 1, "Team": "Big Ass Boy", "Ranking": 6, "Ranking Change": "0"}, {"Week": 2, "Team": "Big Ass Boy", "Ranking": 5, "Ranking Change": "+1"}, {"Week": 3, "Team": "Big Ass Boy", "Ranking": 5, "Ranking Change": "0"}, {"Week": 4, "Team": "Big Ass Boy", "Ranking": 7, "Ranking Change": "-2"}, {"Week": 5, "Team": "Big Ass Boy", "Ranking": 7, "Ranking Change": "0"}, {"Week": 6, "Team": "Big Ass Boy", "Ranking": 2, "Ranking Change": "+5"}, {"Week": 7, "Team": "Big Ass Boy", "Ranking": 3, "Ranking Change": "-1"}, {"Week": 9, "Team": "Big Ass Boy", "Ranking": 2, "Ranking Change": "+1"}, {"Week": 10, "Team": "Big Ass Boy", "Ranking": 3, "Ranking Change": "-1"}, {"Week": 11, "Team": "Big Ass Boy", "Ranking": 3, "Ranking Change": "0"}, {"Week": 1, "Team": "The Dicker McDickersons", "Ranking": 10, "Ranking Change": "0"}, {"Week": 2, "Team": "The Dicker McDickersons", "Ranking": 10, "Ranking Change": "0"}, {"Week": 3, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "+1"}, {"Week": 4, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 5, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 6, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 7, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "0"}, {"Week": 9, "Team": "The Dicker McDickersons", "Ranking": 8, "Ranking Change": "+1"}, {"Week": 10, "Team": "The Dicker McDickersons", "Ranking": 8, "Ranking Change": "0"}, {"Week": 11, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "-1"}, {"Week": 1, "Team": "Two Curls One Kupp", "Ranking": 1, "Ranking Change": "0"}, {"Week": 2, "Team": "Two Curls One Kupp", "Ranking": 1, "Ranking Change": "0"}, {"Week": 3, "Team": "Two Curls One Kupp", "Ranking": 10, "Ranking Change": "-9"}, {"Week": 4, "Team": "Two Curls One Kupp", "Ranking": 10, "Ranking Change": "0"}, {"Week": 5, "Team": "Two Curls One Kupp", "Ranking": 8, "Ranking Change": "+2"}, {"Week": 6, "Team": "Two Curls One Kupp", "Ranking": 7, "Ranking Change": "+1"}, {"Week": 7, "Team": "Two Curls One Kupp", "Ranking": 7, "Ranking Change": "0"}, {"Week": 9, "Team": "Two Curls One Kupp", "Ranking": 9, "Ranking Change": "-2"}, {"Week": 10, "Team": "Two Curls One Kupp", "Ranking": 9, "Ranking Change": "0"}, {"Week": 11, "Team": "Two Curls One Kupp", "Ranking": 7, "Ranking Change": "+2"}], "data-86466eeb73477887394bf082a1b71c6b": [{"Week": 11, "Team": "Ass Etienne Szn", "Ranking": 1, "Ranking Change": "+1"}, {"Week": 11, "Team": "Big Dak Energy", "Ranking": 10, "Ranking Change": "0"}, {"Week": 11, "Team": "Butker's Housewife Brigade", "Ranking": 2, "Ranking Change": "-1"}, {"Week": 11, "Team": "Ladies Love Cool Jalen", "Ranking": 8, "Ranking Change": "-1"}, {"Week": 11, "Team": "Mike Vick's Underdogs", "Ranking": 4, "Ranking Change": "0"}, {"Week": 11, "Team": "Njigbas in Paris", "Ranking": 6, "Ranking Change": "-1"}, {"Week": 11, "Team": "Raheem's Rizzlers", "Ranking": 5, "Ranking Change": "+1"}, {"Week": 11, "Team": "Big Ass Boy", "Ranking": 3, "Ranking Change": "0"}, {"Week": 11, "Team": "The Dicker McDickersons", "Ranking": 9, "Ranking Change": "-1"}, {"Week": 11, "Team": "Two Curls One Kupp", "Ranking": 7, "Ranking Change": "+2"}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 </div>

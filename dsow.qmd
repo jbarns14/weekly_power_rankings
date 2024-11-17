@@ -85,3 +85,15 @@ Points: 37.00<br>
 Team: Njigbas in Paris<br>
 Manager: henderrr<br>
 </div>
+
+
+<h2 class="subtitle">Week 10</h2>
+
+![](img/ridley.png){#mhj-image .center}
+
+<div style="text-align: center;">
+Dawg-N-Em Start of the Week: Calvin Ridley<br>
+Points: 25.00<br>
+Team: Ladies Love Cool Jalen<br>
+Manager: jbarns14<br>
+</div>
